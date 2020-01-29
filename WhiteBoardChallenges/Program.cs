@@ -22,9 +22,11 @@ namespace WhiteBoardChallenges
             //ChallengeFour_CurrentComboNeededCombo_FastestTurnsToReachNeededCombo challengeFour = new ChallengeFour_CurrentComboNeededCombo_FastestTurnsToReachNeededCombo();
             //challengeFour.RunChallengeFour();
 
-            ChallengeFive_EnterArrayOfInts_ReturnTrueIfItIncrements challengeFive = new ChallengeFive_EnterArrayOfInts_ReturnTrueIfItIncrements();
-            challengeFive.RunChallengeFive();
+            //ChallengeFive_EnterArrayOfInts_ReturnTrueIfItIncrements challengeFive = new ChallengeFive_EnterArrayOfInts_ReturnTrueIfItIncrements();
+            //challengeFive.RunChallengeFive();
 
+            ChallengeSix_ArrayOfPositiveAndNegitiveNumbers_AnArrayOfTwo challengeSix = new ChallengeSix_ArrayOfPositiveAndNegitiveNumbers_AnArrayOfTwo();
+            challengeSix.RunChallengeSix();
         }
     }
 }

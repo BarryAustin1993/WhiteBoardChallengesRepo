@@ -46,6 +46,7 @@
     <Compile Include="ChallengeFive_EnterArrayOfInts_ReturnTrueIfItIncrements.cs" />
     <Compile Include="ChallengeFour_CurrentComboNeededCombo_FastestTurnsToReachNeededCombo.cs" />
     <Compile Include="ChallengeOne_Givenarray_TargetGiven.cs" />
+    <Compile Include="ChallengeSix_ArrayOfPositiveAndNegitiveNumbers_AnArrayOfTwo.cs" />
     <Compile Include="ChallengeThree_EnterInt_OutputReverseIntsReciprocal.cs" />
     <Compile Include="ChallengeTwo_Input_BoolIfPalindrome.cs" />
     <Compile Include="Program.cs" />
