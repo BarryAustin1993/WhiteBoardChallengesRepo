@@ -10,7 +10,12 @@ namespace WhiteBoardChallenges
     {
         static void Main(string[] args)
         {
-
+            ChallengeOne_Givenarray_TargetGiven challengeOne = new ChallengeOne_Givenarray_TargetGiven();
+            challengeOne.RunChallengeOne();
+            ChallengeTwo_Input_BoolIfPalindrome challengeTwo = new ChallengeTwo_Input_BoolIfPalindrome();
+            challengeTwo.RunChallengeTwo();
+            ChallengeThree_EnterInt_OutputReverseIntsReciprocal challengeThree = new ChallengeThree_EnterInt_OutputReverseIntsReciprocal();
+            challengeThree.RunChallengeThree();
         }
     }
 }

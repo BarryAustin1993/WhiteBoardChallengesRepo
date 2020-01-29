@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace WhiteBoardChallenges
 {
-    class ChallengeOne_Givenarray_TargetGiven
+    public class ChallengeOne_Givenarray_TargetGiven
     {
 
         //Member Variables (HAS A)
@@ -14,7 +14,7 @@ namespace WhiteBoardChallenges
         int[] addendTwo = new int[] { 5, 17, 77, 50 };
         int target = 55;
         //Constructor
-        ChallengeOne_Givenarray_TargetGiven()
+        public ChallengeOne_Givenarray_TargetGiven()
         {
 
         }
@@ -33,6 +33,8 @@ namespace WhiteBoardChallenges
                     }  
                     else if (result == target)
                     {
+                        Console.WriteLine("Result Found, indices returned");
+                        Console.ReadLine();
                         return addendOne[i] + addendTwo[j];
                     }
 
