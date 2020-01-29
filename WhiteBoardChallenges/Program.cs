@@ -16,6 +16,8 @@ namespace WhiteBoardChallenges
             challengeTwo.RunChallengeTwo();
             ChallengeThree_EnterInt_OutputReverseIntsReciprocal challengeThree = new ChallengeThree_EnterInt_OutputReverseIntsReciprocal();
             challengeThree.RunChallengeThree();
+            ChallengeFour_CurrentComboNeededCombo_FastestTurnsToReachNeededCombo challengeFour = new ChallengeFour_CurrentComboNeededCombo_FastestTurnsToReachNeededCombo();
+            challengeFour.RunChallengeFour();
         }
     }
 }
