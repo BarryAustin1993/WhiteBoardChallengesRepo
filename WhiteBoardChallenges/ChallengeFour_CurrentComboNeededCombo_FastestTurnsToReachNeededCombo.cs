@@ -17,12 +17,15 @@ namespace WhiteBoardChallenges
         int leftTurn;
         int rightTurn;
         string message;
+        int totalTurns;
         //Constructor
 
         //Member Methods (CAN DO)
         public void RunChallengeFour()
-        {
+        { 
             DetermineTheCorrectTurn();
+            Console.WriteLine($"Minimum turns to hit target: {totalTurns}");
+            Console.ReadLine();
         }
         void DetermineTheCorrectTurn()
         {
@@ -33,7 +36,6 @@ namespace WhiteBoardChallenges
                 CompareCurrentAndTargetInts();
                 Console.WriteLine($"{i}. {message}");
             }
-            Console.ReadLine();
         }
         void CompareCurrentAndTargetInts()
         {
@@ -66,14 +68,18 @@ namespace WhiteBoardChallenges
         {
             if (leftTurn < rightTurn)
             {
+                totalTurns += leftTurn;
                 message = $"Turn left {leftTurn} times.";
             }
             else if (rightTurn < leftTurn)
             {
+                totalTurns += rightTurn;
                 message = $"Turn right {rightTurn} times.";
+                
             }
             else
             {
+                totalTurns += rightTurn;
                 message = $"Turn either way {rightTurn} times.";
             }
         }
